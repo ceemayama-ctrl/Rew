@@ -1,0 +1,49 @@
+<script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
+<video id="video-id"><source src="video.mp4" type="video/mp4" />
+<script>
+    var myFP = fluidPlayer(
+        'video-id',	{
+	"layoutControls": {
+		"controlBar": {
+			"autoHideTimeout": 3,
+			"animated": true,
+			"autoHide": true
+		},
+		"htmlOnPauseBlock": {
+			"html": null,
+			"height": null,
+			"width": null
+		},
+		"autoPlay": false,
+		"mute": true,
+		"allowTheatre": true,
+		"playPauseAnimation": true,
+		"playbackRateEnabled": false,
+		"allowDownload": true,
+		"playButtonShowing": false,
+		"fillToContainer": false,
+		"posterImage": ""
+	},
+	"vastOptions": {
+		"adList": [
+			{
+				"roll": "preRoll",
+				"vastTag": "https://removedidentification.com/hswcy8qhw?key=da1546d1b9cfe2f5dea30afde26c8963",
+				"adText": ""
+			},
+			{
+				"roll": "midRoll",
+				"vastTag": "https://removedidentification.com/n7xdwz2gy?key=ee2315bc9bde47ee527e2d1fd46286e5",
+				"adText": ""
+			},
+			{
+				"roll": "onPauseRoll",
+				"vastTag": "",
+				"adText": ""
+			}
+		],
+		"adCTAText": false,
+		"adCTATextPosition": ""
+	}
+});
+</script>
